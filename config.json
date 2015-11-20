@@ -1,0 +1,46 @@
+[{
+    "name": "breaking changes",
+    "color": "eb6420"
+}, {
+    "name": "bug",
+    "color": "e11d21"
+}, {
+    "name": "dependency",
+    "color": "207de5"
+}, {
+    "name": "discussion",
+    "color": "d4c5f9"
+}, {
+    "name": "documentation",
+    "color": "009800"
+}, {
+    "name": "enhancement",
+    "color": "207de5"
+}, {
+    "name": "example",
+    "color": "009800"
+}, {
+    "name": "help wanted",
+    "color": "d4c5f9"
+}, {
+    "name": "new contributor",
+    "color": "d4c5f9"
+}, {
+    "name": "non-issue",
+    "color": "c7def8"
+}, {
+    "name": "question",
+    "color": "d4c5f9"
+}, {
+    "name": "release notes",
+    "color": "fad8c7"
+}, {
+    "name": "request",
+    "color": "c7def8"
+}, {
+    "name": "security",
+    "color": "fbca04"
+}, {
+    "name": "test",
+    "color": "009800"
+}]

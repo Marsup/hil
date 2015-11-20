@@ -1,0 +1,28 @@
+{
+  "name": "hil",
+  "version": "1.0.0",
+  "description": "Add hapijs standard labels to github projects",
+  "bin": "hil.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Marsup/hil.git"
+  },
+  "keywords": [
+    "hapi",
+    "github",
+    "labels",
+    "issues"
+  ],
+  "author": "Nicolas Morel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marsup/hil/issues"
+  },
+  "homepage": "https://github.com/Marsup/hil#readme",
+  "dependencies": {
+    "github-labels": "^0.5.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
