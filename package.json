@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Marsup/hil#readme",
   "dependencies": {
-    "github-labels": "^0.5.2"
+    "github-labels": "^0.6.0"
   },
   "engines": {
     "node": ">=4.0.0"
