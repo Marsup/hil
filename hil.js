@@ -1,16 +1,38 @@
 #!/usr/bin/env node
+'use strict';
 
-const path = require('path');
-const labels = require('github-labels');
+const Pkg = require('./package.json');
+const Path = require('path');
+const Commander = require('commander');
+const Labels = require('github-labels');
 
-const repo = process.argv[2];
+let repo;
 
-if (!/\w+\/\w+/.test(repo)) {
-    console.error('You must provide user/repo as the 1st argument.');
-    process.exit(1);
-}
+Commander
+    .version(Pkg.version)
+    .arguments('<repository>')
+    .option('--host <github host>', 'Github server host (for GHE).')
+    .action((repository) => {
+        if (!/\w+\/\w+/.test(repository)) {
+            Commander.outputHelp();
+            process.exit(1);
+        }
 
-labels({
-    config: path.join(__dirname, 'config.json'),
-    args: [repo]
-});
+        repo = repository;
+    })
+    .on('--help', () => {
+        console.log('  Example:');
+        console.log('    hil Marsup/hil');
+        console.log('    hil --host my-own-ghe.host.com Marsup/hil');
+    })
+    .parse(process.argv);
+
+
+const options = {
+    config: Path.join(__dirname, 'config.json'),
+    args: [repo],
+    host: Commander.host
+};
+
+console.log(options);
+// Labels(options);
