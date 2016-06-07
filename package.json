@@ -1,6 +1,6 @@
 {
   "name": "hil",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Add hapijs standard labels to github projects",
   "bin": "hil.js",
   "repository": {
