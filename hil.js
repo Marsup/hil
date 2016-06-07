@@ -34,5 +34,4 @@ const options = {
     host: Commander.host
 };
 
-console.log(options);
-// Labels(options);
+Labels(options);
