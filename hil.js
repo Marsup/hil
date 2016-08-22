@@ -12,6 +12,7 @@ Commander
     .version(Pkg.version)
     .arguments('<repository>')
     .option('--host <github host>', 'Github server host (for GHE).')
+    .option('--token <github token>', 'Github token')
     .action((repository) => {
         if (!/\w+\/\w+/.test(repository)) {
             Commander.outputHelp();
@@ -31,7 +32,8 @@ Commander
 const options = {
     config: Path.join(__dirname, 'config.json'),
     args: [repo],
-    host: Commander.host
+    host: Commander.host,
+    token: Commander.token
 };
 
 Labels(options);
