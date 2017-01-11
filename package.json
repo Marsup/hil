@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Marsup/hil#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "github-labels": "^0.7.0"
+    "github-labels": "^0.8.0"
   },
   "engines": {
     "node": ">=4.0.0"
