@@ -1,70 +1,86 @@
 [
   {
     "name": "breaking changes",
+    "description":"Change that can breaking existing code",
     "color": "eb6420"
   },
   {
     "name": "bug",
+    "description": "Bug or defect",
     "color": "e11d21"
   },
   {
     "name": "commercial",
+    "description": "Backport for commercially licensed version",
     "color": "000000"
   },
   {
     "name": "dependency",
+    "description": "Update module dependency",
     "color": "207de5"
   },
   {
     "name": "documentation",
+    "description": "Non-code related changes",
     "color": "009800",
     "aliases": ["example"]
   },
   {
     "name": "faq",
+    "description": "Frequently asked question",
     "color": "d4c5f9"
   },
   {
     "name": "feature",
+    "description": "New functionality or improvement",
     "color": "207de5",
     "aliases": ["enhancement"]
   },
   {
     "name": "follow instructions",
+    "description": "The issue failed to follow instructions, try again",
     "color": "d4c5f9"
   },
   {
     "name": "lts",
+    "description": "Backport for maintained old version",
     "color": "000000"
   },
   {
     "name": "non issue",
+    "description": "Issue is not a problem or requires changes",
     "color": "c7def8",
     "aliases": ["non-issue"]
   },
   {
     "name": "release notes",
+    "description": "Major release documentation",
     "color": "fad8c7"
   },
   {
     "name": "security",
+    "description": "Issue with security impact",
     "color": "fbca04"
   },
   {
     "name": "support",
+    "description": "Questions, discussions, and general support",
     "color": "d4c5f9",
     "aliases": ["question", "discussion"]
   },
   {
     "name": "test",
+    "description": "Test or coverage",
     "color": "009800"
   },
   {
     "name": "types",
+    "description": "TypeScript type definitions",
     "color": "207de5"
   },
   {
     "name": "$",
+    "description": "Issue covered by a commercial support plan",
     "color": "d4c5f9"
   }
 ]

@@ -52,7 +52,11 @@ const applyLabels = async () => {
 
     if (updated.length) {
         console.log(`${Commander.dry ? 'Will change' : 'Changed'} ${updated.map(l => {
-            const changes = [l.actual.name !== l.expected.name ? 'name' : false, l.actual.color !== l.expected.color ? 'color' : false]
+            const changes = [
+                l.actual.name !== l.expected.name ? 'name' : false,
+                l.actual.color !== l.expected.color ? 'color' : false,
+                l.actual.description !== l.expected.description ? 'description' : false,
+            ];
             return `${l.name} (${changes.filter(Boolean).join(', ')})`
         }).join(', ')}`);
     }
