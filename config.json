@@ -1,46 +1,70 @@
-[{
+[
+  {
     "name": "breaking changes",
     "color": "eb6420"
-}, {
+  },
+  {
     "name": "bug",
     "color": "e11d21"
-}, {
+  },
+  {
+    "name": "commercial",
+    "color": "000000"
+  },
+  {
     "name": "dependency",
     "color": "207de5"
-}, {
-    "name": "discussion",
-    "color": "d4c5f9"
-}, {
+  },
+  {
     "name": "documentation",
-    "color": "009800"
-}, {
-    "name": "enhancement",
-    "color": "207de5"
-}, {
-    "name": "example",
-    "color": "009800"
-}, {
-    "name": "help wanted",
+    "color": "009800",
+    "aliases": ["example"]
+  },
+  {
+    "name": "faq",
     "color": "d4c5f9"
-}, {
-    "name": "good first issue",
+  },
+  {
+    "name": "feature",
+    "color": "207de5",
+    "aliases": ["enhancement"]
+  },
+  {
+    "name": "follow instructions",
     "color": "d4c5f9"
-}, {
-    "name": "non-issue",
-    "color": "c7def8"
-}, {
-    "name": "question",
-    "color": "d4c5f9"
-}, {
+  },
+  {
+    "name": "lts",
+    "color": "000000"
+  },
+  {
+    "name": "non issue",
+    "color": "c7def8",
+    "aliases": ["non-issue"]
+  },
+  {
     "name": "release notes",
     "color": "fad8c7"
-}, {
-    "name": "request",
-    "color": "c7def8"
-}, {
+  },
+  {
     "name": "security",
     "color": "fbca04"
-}, {
+  },
+  {
+    "name": "support",
+    "color": "d4c5f9",
+    "aliases": ["question", "discussion"]
+  },
+  {
     "name": "test",
     "color": "009800"
-}]
+  },
+  {
+    "name": "types",
+    "color": "207de5"
+  },
+  {
+    "name": "$",
+    "color": "d4c5f9"
+  }
+]
