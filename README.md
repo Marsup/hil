@@ -6,7 +6,8 @@ It does **NOT** delete existing labels, only adds missing ones and fixes colors 
 
 # Usage
 
-> hil user/repo
+> hil --token <YOUR_GH_TOKEN> user/repo --dry
+> hil --token <YOUR_GH_TOKEN> user/repo
 
 # Note
 
