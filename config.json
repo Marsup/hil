@@ -2,7 +2,8 @@
   {
     "name": "breaking changes",
     "description":"Change that can breaking existing code",
-    "color": "eb6420"
+    "color": "eb6420",
+    "aliases": ["breaking change"]
   },
   {
     "name": "bug",
@@ -34,12 +35,13 @@
     "name": "feature",
     "description": "New functionality or improvement",
     "color": "207de5",
-    "aliases": ["enhancement"]
+    "aliases": ["enhancement", "request"]
   },
   {
     "name": "follow instructions",
     "description": "The issue failed to follow instructions, try again",
-    "color": "d4c5f9"
+    "color": "d4c5f9",
+    "aliases": ["missing discussion"]
   },
   {
     "name": "lts",
